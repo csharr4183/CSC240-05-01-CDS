@@ -42,12 +42,14 @@ namespace Exponents
 
             /* calculate the cube of the number and add it to the output - 
              * do this by creating a methd as in the squaring example above */
-
+            uOutputLabel.Text +=  "\nCube is: " + Cube(num).ToString();
 
             // OUTPUT
             // set the output to visible
+            uOutputLabel.Visible = true;
 
             // turn the Go button off
+            uGoButton.Enabled = false;
         }
 
         public int Square(int num)
@@ -57,10 +59,9 @@ namespace Exponents
         }
 
         public int Cube(int num)
-            
         {
             // we will create this code in class
-            return 0;
+            return num * num * num;
         }
 
         private void xResetButton_Click(object sender, EventArgs e)
@@ -68,6 +69,7 @@ namespace Exponents
             // the input and output text should be emptied
             // turn the output to invisible
             // turn the Go button back on
+            uGoButton.Enabled = true;
         }
 
     }
