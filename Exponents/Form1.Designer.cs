@@ -42,6 +42,7 @@
             this.uInputTextBox.Name = "uInputTextBox";
             this.uInputTextBox.Size = new System.Drawing.Size(132, 22);
             this.uInputTextBox.TabIndex = 0;
+            this.uInputTextBox.Tag = "Text Box";
             // 
             // uInputLabel
             // 
@@ -51,6 +52,7 @@
             this.uInputLabel.Name = "uInputLabel";
             this.uInputLabel.Size = new System.Drawing.Size(103, 16);
             this.uInputLabel.TabIndex = 3;
+            this.uInputLabel.Tag = "Label";
             this.uInputLabel.Text = "Enter an integer:";
             // 
             // uOutputLabel
@@ -61,6 +63,7 @@
             this.uOutputLabel.Name = "uOutputLabel";
             this.uOutputLabel.Size = new System.Drawing.Size(0, 16);
             this.uOutputLabel.TabIndex = 4;
+            this.uOutputLabel.Tag = "Output Label";
             this.uOutputLabel.Visible = false;
             // 
             // uGoButton
@@ -70,6 +73,7 @@
             this.uGoButton.Name = "uGoButton";
             this.uGoButton.Size = new System.Drawing.Size(100, 82);
             this.uGoButton.TabIndex = 6;
+            this.uGoButton.Tag = "Button";
             this.uGoButton.Text = "Go!";
             this.uGoButton.UseVisualStyleBackColor = true;
             this.uGoButton.Click += new System.EventHandler(this.xGoButton_Click);
@@ -81,6 +85,7 @@
             this.uResetButton.Name = "uResetButton";
             this.uResetButton.Size = new System.Drawing.Size(100, 28);
             this.uResetButton.TabIndex = 7;
+            this.uResetButton.Tag = "Reset Button";
             this.uResetButton.Text = "Reset";
             this.uResetButton.UseVisualStyleBackColor = true;
             this.uResetButton.Click += new System.EventHandler(this.xResetButton_Click);
