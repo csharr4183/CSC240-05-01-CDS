@@ -8,8 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 
 /**************************************
- * Name:
- * Date:
+ * Name:        Chad D. Sharritt
+ * Date:        4/29/2022
  * Description: A program using user-created method
  *              for the math function Square and Cube
  * Assistance:
