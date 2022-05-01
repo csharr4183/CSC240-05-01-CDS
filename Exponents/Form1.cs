@@ -46,7 +46,7 @@ namespace Exponents
 
             // OUTPUT
             // set the output to visible
-            uOutputLabel.Visible = true;
+            uOutputLabel.Visible = false;
 
             // turn the Go button off
             uGoButton.Enabled = false;
